@@ -300,6 +300,9 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 760px) {
@@ -325,11 +328,17 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0;
+    display: flex;
   }
 
   #filters-section .extra {
     display: none;
   }
+}
+
+#filters-section img {
+  width: 100%;
+  height: auto;
 }
 
 /* Quotes Section */
