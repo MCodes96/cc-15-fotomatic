@@ -10,6 +10,10 @@ html {
   font-size: 16px;
 }
 
+body {
+  width: 100vw;
+}
+
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
@@ -183,10 +187,13 @@ header .mobile {
     height: auto;
     background-color: transparent;
     border: none;
+    padding: 0;
+    margin: auto;
   }
 
   #sign-up-cta .content {
     margin-top: 0;
+    width: 100vw;
   }
 
   #sign-up-cta .email {
